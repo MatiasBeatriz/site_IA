@@ -1,0 +1,153 @@
+/* CSS adicional para estilização */
+
+/* Estilos para o cabeçalho */
+header {
+    background-color: #eb1717;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo img {
+    max-width: 100px; /* Ajuste o tamanho da logo conforme necessário */
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: background-color 0.3s;
+}
+nav ul li a:hover {
+    color: blue;
+}
+/* CSS para definir uma imagem de fundo para o corpo do site */
+/* Estilo para o corpo do site */
+body {
+    background-color: #cfcece;
+    background-size: cover; /* Faz a imagem cobrir todo o espaço disponível */
+    background-position: center; /* Centraliza a imagem no corpo */
+    color: #161212; /* Cor do texto */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.historia {
+    
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.historia h3 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.historia p {
+    font-size: 25px;
+    line-height: 1.6;
+    text-align: justify;
+}
+#galeria {
+    margin-top: 50px;
+}
+
+#galeria h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.image {
+    margin: 10px;
+}
+.contact-photos {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* Adicionando quebra de linha quando não houver espaço suficiente */
+}
+
+.contact-photo {
+    margin: 0 10px; /* Adicionando espaço entre as fotos */
+    text-align: center;
+    width: 250px; /* Definindo uma largura fixa para cada contato */
+    margin-bottom: 20px; /* Adicionando espaço entre os contatos */
+}
+
+.contact-photo img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    border: 2px solid #ccc;
+    display: block;
+    margin: 0 auto;
+}
+
+.contact-info {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.contact-info p {
+    margin: 5px 0;
+    font-size: 25px;
+}
+
+/* Media query para ajustar o layout quando a largura da tela for menor que 600px */
+@media screen and (max-width: 600px) {
+    .contact-photo {
+        width: auto; /* Removendo a largura fixa para que os contatos ocupem a largura total da tela */
+    }
+}
+.motivacao {
+    text-align: center;
+    padding: 20px;
+}
+
+.motivacao p {
+    font-size: 20px;
+    
+}
+.produtos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.produto {
+    text-align: center;
+    margin: 20px;
+    width: 250px; /* Adicionado para garantir consistência de tamanho */
+}
+
+.produto img {
+    max-width: 100%;
+}
+
